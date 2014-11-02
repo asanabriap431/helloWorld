@@ -3,7 +3,7 @@ var express = require('express'),
     server = require('http').createServer(app),
     io = require('socket.io').listen(server);
     
-server.listen(7000);
+server.listen(5000);
 
 //Cuando recibe una petición, se responde abriendo el archivo index.html
 app.get('/', function(req, res) {
